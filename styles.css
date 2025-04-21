@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns */
+  grid-template-rows: repeat(4, auto); /* Adjust the number of rows */
+  gap: 10px; /* Space between grid items */
+}
+
+#grid div {
+  background-color: green; /* Change color as needed */
+  padding: 20px; /* Space inside the grid items */
+  text-align: center; /* Center text */
+}
